@@ -1,0 +1,6 @@
+pkg install php
+pkg update && pkg upgrade
+cd ..
+rm ../usr/etc/bash.bashrc
+cp tlogin/bash.bashrc ../usr/etc/bash.bashrc
+cp tlogin/asu.php ../usr/etc/
